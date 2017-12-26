@@ -32,6 +32,7 @@
 #' @param override TRUE means we use fast.svd instead of the iterative
 #' algorithm (useful for small data or very high d).
 #' @return list with singular value decomposition.
+#' @export
 trunc.svd <- function (A, d, adjust = 3, tol = 1e-10, V = NULL, 
  seed=NULL, ltrace = FALSE, override=FALSE) 
 {
